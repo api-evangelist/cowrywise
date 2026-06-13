@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cowrywise",
+  "url": "https://cowrywise.com/",
+  "description": "Cowrywise is a Nigerian wealth management platform and SEC-licensed fund manager offering savings plans, investment portfolios, dollar accounts, and financial goal tracking for individuals.",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/cowrywise",
+    "https://ng.linkedin.com/company/cowrywise",
+    "https://twitter.com/cowrywise"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "support@cowrywise.com",
+    "contactType": "customer support"
+  },
+  "subjectOf": {
+    "@type": "WebAPI",
+    "name": "Cowrywise Embed API",
+    "description": "Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user account creation, identity verification, portfolio management, funding, liquidation, withdrawals, transactions, and webhooks. Available in NGN and USD.",
+    "url": "https://developers.cowrywise.com/",
+    "documentation": "https://developers.cowrywise.com/",
+    "termsOfService": "https://cowrywise.com/embed",
+    "provider": {
+      "@type": "Organization",
+      "name": "Cowrywise",
+      "url": "https://cowrywise.com/"
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://production.embed.cowrywise.com"
+    },
+    "additionalType": "https://schema.org/FinancialService",
+    "keywords": [
+      "investments",
+      "savings",
+      "mutual funds",
+      "portfolios",
+      "wallets",
+      "fintech",
+      "Nigeria",
+      "Africa",
+      "wealth management",
+      "REST API",
+      "OAuth 2.0"
+    ]
+  }
+}
