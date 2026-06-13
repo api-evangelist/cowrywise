@@ -1,0 +1,37 @@
+name: Cowrywise Embed API Rate Limits
+description: Rate limit information for the Cowrywise Embed API. Cowrywise does not publicly document specific rate limits. The following reflects known token and session behaviour derived from the authentication documentation.
+url: https://developers.cowrywise.com/guides/authentication
+limits:
+  - name: Access Token Lifetime
+    description: OAuth 2.0 Bearer tokens issued by the token endpoint expire after 3600 seconds (1 hour). Clients must re-authenticate when a 401 Unauthorized response is received.
+    value: 3600
+    unit: seconds
+    scope: per token
+  - name: Token Scope
+    description: Access tokens are issued with read and write scope covering all Embed API endpoints.
+    value: "read write"
+    scope: per token
+  - name: Request Rate Limits
+    description: Cowrywise has not publicly documented request-per-minute or request-per-day rate limits. Contact Cowrywise directly or refer to production onboarding documentation for negotiated limits.
+    value: not publicly disclosed
+    scope: per integration
+environments:
+  sandbox:
+    base_url: https://sandbox.embed.cowrywise.com
+    token_endpoint: https://sandbox.embed.cowrywise.com/o/token/
+    notes: Used for development and integration testing. Credentials obtained from the Embed dashboard.
+  production:
+    base_url: https://production.embed.cowrywise.com
+    token_endpoint: https://production.embed.cowrywise.com/o/token/
+    notes: Requires approved early-access credentials.
+authentication:
+  type: OAuth 2.0
+  grant_type: client_credentials
+  token_type: Bearer
+  header: "Authorization: Bearer {access_token}"
+  credentials:
+    - client_id
+    - client_secret
+notes:
+  - Re-authenticate on HTTP 401 responses.
+  - Do not expose client_id or client_secret in client-side code or public repositories.

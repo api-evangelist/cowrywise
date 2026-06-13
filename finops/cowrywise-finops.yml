@@ -1,0 +1,37 @@
+name: Cowrywise Embed API FinOps
+description: Financial operations guidance for integrations built on the Cowrywise Embed API. Cowrywise does not publish a public cost schedule; charges are agreed during production onboarding. The following covers known cost-relevant behaviours and financial product characteristics.
+url: https://cowrywise.com/embed
+cost_model:
+  type: negotiated / contact
+  public_pricing: false
+  early_access_form: https://cowrywise.com/embed
+  notes:
+    - No per-call or per-transaction fees are publicly listed.
+    - Revenue model likely involves asset-management fees or revenue-sharing on investment products, consistent with regulated fund-manager operations.
+    - Cowrywise is licensed by the SEC of Nigeria as a fund manager; returns on underlying investment products (mutual funds, T-bills, bonds, equities) are subject to market performance.
+investment_product_fees:
+  - product: Wallet
+    fee: zero-fee store of value; free transfers noted in documentation
+  - product: Savings
+    fee: not publicly disclosed; lock period minimum 3 months
+  - product: Mutual Funds
+    fee: underlying fund expense ratios apply; not disclosed in API docs
+  - product: Treasury Bills
+    fee: market-priced; not disclosed in API docs
+  - product: Eurobonds
+    fee: market-priced; not disclosed in API docs
+  - product: Equities (local & international)
+    fee: brokerage and exchange fees apply; not disclosed in API docs
+currencies:
+  - NGN (Nigerian Naira)
+  - USD (US Dollar — available for select products including Eurobonds and USD mutual funds)
+cost_controls:
+  - Monitor transaction fees via the "Fetch transfer and withdrawal processing fees" endpoint before executing transfers.
+  - Use the sandbox environment (zero cost) for all development and load testing.
+  - Implement webhook listeners to track real-time investment and transaction events to avoid redundant polling.
+regulatory:
+  regulator: Securities and Exchange Commission (SEC) of Nigeria
+  licence_type: Fund Manager
+  notes:
+    - All investment products are regulated; compliance obligations flow through Cowrywise.
+    - Integrators are responsible for KYC/AML obligations for end users (identity verification is part of the account-creation flow).

@@ -1,0 +1,32 @@
+name: Cowrywise Embed API Plans & Pricing
+description: Pricing and access model for the Cowrywise Embed investment-as-a-service API. Access is provided via an early-access / waitlist model; no publicly listed tier pricing is available. Developers sign up through the Embed dashboard to receive sandbox credentials.
+url: https://cowrywise.com/embed
+plans:
+  - name: Sandbox / Test
+    description: Default access tier granted upon Embed dashboard registration. Provides test client_id and client_secret for development and integration against the sandbox environment.
+    price: free
+    features:
+      - Sandbox environment access (sandbox.embed.cowrywise.com)
+      - OAuth 2.0 client credentials (test)
+      - Full API surface in test mode
+      - Python and Node.js client libraries
+  - name: Production (Early Access)
+    description: Production credentials issued after review and approval. Pricing is negotiated directly with Cowrywise; no public rate card is available. Developers must request early access via the Embed sign-up form.
+    price: contact
+    features:
+      - Production environment access (production.embed.cowrywise.com)
+      - User account creation and identity verification
+      - Wallet management
+      - Savings products (NGN & USD)
+      - Mutual funds (money market, equity, fixed income, halal, balanced)
+      - Treasury bills
+      - Eurobonds (USD-denominated)
+      - Local and international equities
+      - Fixed notes
+      - Portfolio analytics
+      - Webhooks
+      - Transaction history
+notes:
+  - Cowrywise is licensed by the Securities and Exchange Commission (SEC) of Nigeria.
+  - All regulatory, legal, and technical infrastructure is provided by Cowrywise.
+  - Public pricing is not disclosed; interested parties should complete the early-access form at https://cowrywise.com/embed.
