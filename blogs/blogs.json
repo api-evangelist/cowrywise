@@ -1,104 +1,151 @@
 {
   "url": "https://cowrywise.com/blog/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "From Weekend Experiment to Production App: Building Cowrywise Kids with Kotlin Multiplatform",
       "url": "https://cowrywise.com/blog/from-weekend-experiment-to-production-app-building-cowrywise-kids-with-kotlin-multiplatform/",
       "date": "2026-06-10",
-      "categories": ["At Work", "Engineering"],
+      "categories": [
+        "At Work",
+        "Engineering"
+      ],
       "summary": "Details the development process of the Cowrywise Kids application using Kotlin Multiplatform technology."
     },
     {
       "title": "How to Build an Emergency Fund in Nigeria Before Life Happens",
       "url": "https://cowrywise.com/blog/how-to-build-an-emergency-fund-in-nigeria-before-life-happens/",
       "date": "2026-06-09",
-      "categories": ["Uncategorized"],
+      "categories": [
+        "Uncategorized"
+      ],
       "summary": "Guidance on establishing financial safety nets within the Nigerian context."
     },
     {
       "title": "NGX T+1 Settlement: When Do You Get Your Money After Selling Shares?",
       "url": "https://cowrywise.com/blog/ngx-t1-settlement/",
       "date": "2026-06-03",
-      "categories": ["Investing", "Money News"],
+      "categories": [
+        "Investing",
+        "Money News"
+      ],
       "summary": "Explains settlement timelines for share sales on the Nigerian Exchange."
     },
     {
       "title": "How to Buy IPO Shares in Nigeria (and When You Shouldn't)",
       "url": "https://cowrywise.com/blog/how-to-buy-ipo-shares-in-nigeria/",
       "date": "2026-05-23",
-      "categories": ["Product"],
+      "categories": [
+        "Product"
+      ],
       "summary": "Comprehensive guide on Initial Public Offering investments and decision-making considerations."
     },
     {
       "title": "How to Save for Weddings, Hajj and Master's Degrees Without Panic Debt",
       "url": "https://cowrywise.com/blog/save-for-big-life-goals-nigeria/",
       "date": "2026-05-07",
-      "categories": ["Uncategorized"],
+      "categories": [
+        "Uncategorized"
+      ],
       "summary": "Strategies for accumulating funds toward major life milestones without financial stress."
     },
     {
       "title": "Dangote Refinery IPO: The Naira-In, Dollars-Out Investment Explained",
       "url": "https://cowrywise.com/blog/dangote-refinery-ipo-the-naira-in-dollars-out-investment-explained/",
       "date": "2026-04-24",
-      "categories": ["Investing"],
+      "categories": [
+        "Investing"
+      ],
       "summary": "Analysis of currency dynamics in the Dangote Refinery IPO investment opportunity."
     },
     {
       "title": "Why Did My Trade Execute at a Different Price Than the Chart?",
       "url": "https://cowrywise.com/blog/why-did-my-trade-execute-at-a-different-price-than-the-chart/",
       "date": "2026-02-20",
-      "categories": ["Product", "Stocks"],
+      "categories": [
+        "Product",
+        "Stocks"
+      ],
       "summary": "Explanation of price discrepancies between displayed charts and actual trade execution."
     },
     {
       "title": "Different Salaries in a Relationship: How Nigerian Couples Can Plan Together",
       "url": "https://cowrywise.com/blog/different-salaries-relationship-nigerian-couples/",
       "date": "2026-02-10",
-      "categories": ["Money Tips", "Product", "Uncategorized"],
+      "categories": [
+        "Money Tips",
+        "Product",
+        "Uncategorized"
+      ],
       "summary": "Guidance for couples with unequal income streams on collaborative financial planning."
     },
     {
       "title": "Cowrywise Ambassadors' Program: The Case for Financial Education in Nigeria's Tertiary Curriculum",
       "url": "https://cowrywise.com/blog/financial-education-in-nigerias-tertiary-curriculum/",
       "date": "2024-06-25",
-      "categories": ["Ambassadors", "Expert Piece", "Research Articles", "Testimonials"],
+      "categories": [
+        "Ambassadors",
+        "Expert Piece",
+        "Research Articles",
+        "Testimonials"
+      ],
       "summary": "Advocacy piece supporting financial literacy integration into university education."
     },
     {
       "title": "Money Chronicles: From 5k to 600k - How Teejay Saved for her Apartment in Lagos",
       "url": "https://cowrywise.com/blog/save-for-apartment-rent-lagos/",
       "date": "2023-11-23",
-      "categories": ["Testimonials"],
+      "categories": [
+        "Testimonials"
+      ],
       "summary": "Personal account of accumulating housing funds through disciplined saving practices."
     },
     {
       "title": "Money Chronicles: I used Cowrywise to save toward my Wedding",
       "url": "https://cowrywise.com/blog/used-cowrywise-to-save-toward-my-wedding/",
       "date": "2023-11-14",
-      "categories": ["Testimonials"],
+      "categories": [
+        "Testimonials"
+      ],
       "summary": "User experience narrative of leveraging the platform for wedding cost accumulation."
     },
     {
       "title": "Money Chronicles: Cowrywise Helped Me Build Discipline Towards My Savings Goals",
       "url": "https://cowrywise.com/blog/cowrywise-helped-me-build-discipline-towards-my-savings-goals/",
       "date": "2023-10-18",
-      "categories": ["Testimonials"],
+      "categories": [
+        "Testimonials"
+      ],
       "summary": "Customer testimonial on developing financial discipline using the service."
     },
     {
       "title": "Money Chronicles: How I Became Disciplined With Savings Using Cowrywise",
       "url": "https://cowrywise.com/blog/how-i-became-disciplined-with-savings-using-cowrywise/",
       "date": "2023-10-18",
-      "categories": ["Testimonials"],
+      "categories": [
+        "Testimonials"
+      ],
       "summary": "Another customer perspective on cultivating savings habits through the platform."
     },
     {
       "title": "Money Chronicles: How Cowrywise Gave Me A Better Perspective to Personal Finance",
       "url": "https://cowrywise.com/blog/cowrywise-gave-me-a-better-perspective-to-personal-finance/",
       "date": "2023-10-18",
-      "categories": ["Testimonials"],
+      "categories": [
+        "Testimonials"
+      ],
       "summary": "User testimony about gaining improved financial awareness and outlook."
     }
-  ]
+  ],
+  "repo": "cowrywise",
+  "feeds": [
+    {
+      "source": "https://ng.linkedin.com/company/cowrywise",
+      "feed_url": "https://ng.linkedin.com/company/cowrywise",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
