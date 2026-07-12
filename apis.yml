@@ -53,6 +53,10 @@ apis:
       - FN: Cowrywise Support
         email: support@cowrywise.com
 common:
+  - type: VulnerabilityDisclosure
+    url: security/cowrywise-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/cowrywise-domain-security.yml
   - type: Website
     url: https://cowrywise.com/
   - type: Documentation
