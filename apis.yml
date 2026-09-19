@@ -33,7 +33,7 @@ type: Index
 tags:
   - Fintech
   - Wealth Management
-  - Investments
+  - Investment
   - Savings
   - Mutual Funds
   - Nigeria
@@ -58,7 +58,7 @@ apis:
     humanURL: https://developers.cowrywise.com/
     baseURL: https://production.embed.cowrywise.com
     tags:
-      - Investments
+      - Investment
       - Savings
       - Mutual Funds
       - Portfolio
