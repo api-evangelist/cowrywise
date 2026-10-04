@@ -38,7 +38,7 @@ tags:
   - Mutual Funds
   - Nigeria
   - Africa
-  - Financial-Services
+  - Financial Services
   - REST API
 tags_raw:
   - Fintech
@@ -50,6 +50,7 @@ tags_raw:
   - Africa
   - Financial Services
   - REST API
+  - Financial-Services
 apis:
   - aid: cowrywise:embed-api
     name: Cowrywise Embed API
