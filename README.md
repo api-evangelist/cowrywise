@@ -1,4 +1,4 @@
-# Cowrywise (cowrywise)
+# Cowrywise
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,73 +66,103 @@
 
 Cowrywise is a Nigerian wealth management platform and SEC-licensed fund manager offering savings plans, investment portfolios, dollar accounts, and financial goal tracking for individuals. The Embed API provides investment-as-a-service capabilities, enabling developers to integrate regulated African investment products — including savings, mutual funds, treasury bills, Eurobonds, and equities — into their own applications via a single REST API with OAuth 2.0 authentication.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/cowrywise/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/cowrywise/refs/heads/main/apis.yml)
+**Areas:** Fintech · Wealth Management · Investment · Savings · Mutual Funds · Nigeria · Africa · Financial Services · REST API
 
-## Scope
+## Cowrywise on APIs.io
 
-- **Type:** Index
+Everything profiled for Cowrywise is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cowrywise/](https://apis.io/providers/cowrywise/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Fintech
-- Wealth Management
-- Investments
-- Savings
-- Mutual Funds
-- Nigeria
-- Africa
-- Financial Services
-- REST API
+- [Cowrywise Embed API](https://apis.io/apis/cowrywise/embed-api/) — Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities)…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Cowrywise Embed API
+Authentication, trust centre, and vulnerability disclosure.
 
-Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user account creation, identity verification, portfolio management, funding, liquidation, withdrawals, transactions, and webhooks. Available in NGN and USD.
+- [Cowrywise Domain Security](https://apis.io/security/cowrywise/cowrywise-domain-security/)
+- [Cowrywise Vulnerability Disclosure](https://apis.io/security/cowrywise/cowrywise-vulnerability-disclosure/)
 
-- **Human URL:** [https://developers.cowrywise.com/](https://developers.cowrywise.com/)
-- **Base URL:** `https://production.embed.cowrywise.com`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Investments
-- Savings
-- Mutual Funds
-- Portfolios
-- Wallets
-- Fintech
-- Nigeria
+- [Cowrywise Plans Pricing](https://apis.io/plans/cowrywise/cowrywise-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://developers.cowrywise.com/)
-- [Authentication](https://developers.cowrywise.com/guides/authentication)
-- [Getting Started](https://developers.cowrywise.com/guides/welcome)
-- [Reference](https://developers.cowrywise.com/reference)
-- [S D Ks](https://developers.cowrywise.com/libraries)
-- [Git Hub Org](https://github.com/cowrywise)
-- [Node J S S D K](https://github.com/cowrywise/embed-node)
-- [Python S D K](https://github.com/cowrywise/embedpy)
+Published request limits.
 
-## Common Properties
+- [Cowrywise Rate Limits](https://apis.io/rate-limits/cowrywise/cowrywise-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Cowrywise Finops](https://apis.io/finops/cowrywise/cowrywise-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://cowrywise.com/)
 - [Documentation](https://developers.cowrywise.com/)
-- [Git Hub Org](https://github.com/cowrywise)
-- [LinkedIn](https://ng.linkedin.com/company/cowrywise)
-- [Blog](https://cowrywise.com/blog/)
 - [Pricing](https://cowrywise.com/embed)
-- [X (Twitter)](https://twitter.com/cowrywise)
-- [Plans](plans/cowrywise-plans-pricing.yml)
-- [Rate Limits](rate-limits/cowrywise-rate-limits.yml)
-- [Fin Ops](finops/cowrywise-finops.yml)
+- [Blog](https://cowrywise.com/blog/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 21.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 15.8 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cowrywise/](https://apis.io/providers/cowrywise/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cowrywise: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cowrywise/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
